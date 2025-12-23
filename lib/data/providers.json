@@ -1,0 +1,364 @@
+{
+  "providers": [
+    {
+      "providerId": "prov-001",
+      "fullName": "Susan D. Ott Heasley, DO",
+      "specialty": "Family Practice",
+      "address": {
+        "line1": "103 N Main St",
+        "city": "Cheney",
+        "state": "KS",
+        "zip": "67025"
+      },
+      "phone": "(620) 669-2500",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 2.5,
+      "ratingCount": 14,
+      "virtualCareOffered": false,
+      "plansAccepted": ["CP-ADVANCE-01", "CP-STANDARD-03"]
+    },
+    {
+      "providerId": "prov-002",
+      "fullName": "Dawna K. Huhman, FNP",
+      "specialty": "Family Nurse Practitioner",
+      "address": {
+        "line1": "437 Cedar St",
+        "city": "Kingman",
+        "state": "KS",
+        "zip": "67068"
+      },
+      "phone": "(620) 553-5040",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": null,
+      "ratingCount": 0,
+      "virtualCareOffered": true,
+      "plansAccepted": ["CP-STANDARD-03", "CP-HIGH-05"]
+    },
+    {
+      "providerId": "prov-003",
+      "fullName": "Michael T. Granger, MD",
+      "specialty": "Internal Medicine",
+      "address": {
+        "line1": "22 South Elm St",
+        "city": "Hutchinson",
+        "state": "KS",
+        "zip": "67501"
+      },
+      "phone": "(620) 447-1188",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 4.1,
+      "ratingCount": 52,
+      "virtualCareOffered": true,
+      "plansAccepted": ["CP-HIGH-05", "CP-STANDARD-03"]
+    },
+    {
+      "providerId": "prov-004",
+      "fullName": "Tina L. Carver, PA",
+      "specialty": "Family Practice",
+      "address": {
+        "line1": "1908 Maple St",
+        "city": "Pratt",
+        "state": "KS",
+        "zip": "67124"
+      },
+      "phone": "(620) 931-2202",
+      "acceptingPatients": false,
+      "inNetwork": true,
+      "rating": 3.9,
+      "ratingCount": 21,
+      "virtualCareOffered": false,
+      "plansAccepted": ["CP-HDHP-02"]
+    },
+    {
+      "providerId": "prov-005",
+      "fullName": "Ramon S. Diaz, MD",
+      "specialty": "Pediatrics",
+      "address": {
+        "line1": "510 Willow Ave",
+        "city": "Wichita",
+        "state": "KS",
+        "zip": "67203"
+      },
+      "phone": "(316) 410-9921",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 4.7,
+      "ratingCount": 87,
+      "virtualCareOffered": true,
+      "plansAccepted": ["CP-STANDARD-03", "CP-ADVANCE-01"]
+    },
+    {
+      "providerId": "prov-006",
+      "fullName": "Heather J. Lawson, NP",
+      "specialty": "Adult Primary Care",
+      "address": {
+        "line1": "78 Ridgeview Dr",
+        "city": "Newton",
+        "state": "KS",
+        "zip": "67114"
+      },
+      "phone": "(316) 445-2210",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 4.2,
+      "ratingCount": 39,
+      "virtualCareOffered": true,
+      "plansAccepted": ["CP-HIGH-05"]
+    },
+    {
+      "providerId": "prov-007",
+      "fullName": "Charles H. Pickens, DO",
+      "specialty": "Family Practice",
+      "address": {
+        "line1": "116 Monroe St",
+        "city": "Haven",
+        "state": "KS",
+        "zip": "67543"
+      },
+      "phone": "(620) 922-4411",
+      "acceptingPatients": false,
+      "inNetwork": true,
+      "rating": 3.4,
+      "ratingCount": 18,
+      "virtualCareOffered": false,
+      "plansAccepted": ["CP-STANDARD-03"]
+    },
+    {
+      "providerId": "prov-008",
+      "fullName": "Emily P. Waters, PA",
+      "specialty": "Internal Medicine",
+      "address": {
+        "line1": "204 Spruce St",
+        "city": "Pretty Prairie",
+        "state": "KS",
+        "zip": "67570"
+      },
+      "phone": "(620) 459-1014",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 4.8,
+      "ratingCount": 63,
+      "virtualCareOffered": true,
+      "plansAccepted": ["CP-HIGH-05", "CP-HDHP-02"]
+    },
+    {
+      "providerId": "prov-009",
+      "fullName": "Jared K. Morgan, MD",
+      "specialty": "General Practice",
+      "address": {
+        "line1": "990 Cottonwood Rd",
+        "city": "Hutchinson",
+        "state": "KS",
+        "zip": "67502"
+      },
+      "phone": "(620) 774-3310",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 3.0,
+      "ratingCount": 9,
+      "virtualCareOffered": false,
+      "plansAccepted": ["CP-ADVANCE-01"]
+    },
+    {
+      "providerId": "prov-010",
+      "fullName": "Stephanie L. Rook, NP",
+      "specialty": "Family Nurse Practitioner",
+      "address": {
+        "line1": "312 Ridge Rd",
+        "city": "Cheney",
+        "state": "KS",
+        "zip": "67025"
+      },
+      "phone": "(620) 322-8811",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 4.6,
+      "ratingCount": 44,
+      "virtualCareOffered": true,
+      "plansAccepted": ["CP-STANDARD-03", "CP-STANDARD-03"]
+    },
+    {
+      "providerId": "prov-011",
+      "fullName": "Harold M. Payne, MD",
+      "specialty": "Family Practice",
+      "address": {
+        "line1": "88 Laurel St",
+        "city": "Wichita",
+        "state": "KS",
+        "zip": "67205"
+      },
+      "phone": "(316) 566-0033",
+      "acceptingPatients": false,
+      "inNetwork": true,
+      "rating": 3.2,
+      "ratingCount": 11,
+      "virtualCareOffered": false,
+      "plansAccepted": ["CP-HDHP-02"]
+    },
+    {
+      "providerId": "prov-012",
+      "fullName": "Lindsey B. Cross, FNP",
+      "specialty": "Internal Medicine",
+      "address": {
+        "line1": "55 Park St",
+        "city": "Pratt",
+        "state": "KS",
+        "zip": "67124"
+      },
+      "phone": "(620) 911-2022",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 4.0,
+      "ratingCount": 29,
+      "virtualCareOffered": true,
+      "plansAccepted": ["CP-HIGH-05", "CP-STANDARD-03"]
+    },
+    {
+      "providerId": "prov-013",
+      "fullName": "Kevin J. Landers, DO",
+      "specialty": "Family Practice",
+      "address": {
+        "line1": "401 Ash St",
+        "city": "Kingman",
+        "state": "KS",
+        "zip": "67068"
+      },
+      "phone": "(620) 778-2034",
+      "acceptingPatients": false,
+      "inNetwork": true,
+      "rating": 2.9,
+      "ratingCount": 7,
+      "virtualCareOffered": false,
+      "plansAccepted": ["CP-ADVANCE-01"]
+    },
+    {
+      "providerId": "prov-014",
+      "fullName": "Angela D. Mercer, NP",
+      "specialty": "Adult Primary Care",
+      "address": {
+        "line1": "1020 Pine Ln",
+        "city": "Hutchinson",
+        "state": "KS",
+        "zip": "67501"
+      },
+      "phone": "(620) 993-4419",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 4.9,
+      "ratingCount": 94,
+      "virtualCareOffered": true,
+      "plansAccepted": ["CP-STANDARD-03"]
+    },
+    {
+      "providerId": "prov-015",
+      "fullName": "Robert B. Henley, MD",
+      "specialty": "General Practice",
+      "address": {
+        "line1": "12 Garden Ct",
+        "city": "Pretty Prairie",
+        "state": "KS",
+        "zip": "67570"
+      },
+      "phone": "(620) 455-2181",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 3.7,
+      "ratingCount": 22,
+      "virtualCareOffered": false,
+      "plansAccepted": ["CP-STANDARD-03", "CP-HIGH-05"]
+    },
+    {
+      "providerId": "prov-016",
+      "fullName": "Julie K. Brewster, PA",
+      "specialty": "Pediatrics",
+      "address": {
+        "line1": "1410 Maple Ave",
+        "city": "Wichita",
+        "state": "KS",
+        "zip": "67204"
+      },
+      "phone": "(316) 880-1155",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 4.5,
+      "ratingCount": 40,
+      "virtualCareOffered": true,
+      "plansAccepted": ["CP-HIGH-05"]
+    },
+    {
+      "providerId": "prov-017",
+      "fullName": "Daniel S. Kessler, MD",
+      "specialty": "Family Practice",
+      "address": {
+        "line1": "77 Front St",
+        "city": "Newton",
+        "state": "KS",
+        "zip": "67114"
+      },
+      "phone": "(316) 884-2290",
+      "acceptingPatients": false,
+      "inNetwork": true,
+      "rating": 3.1,
+      "ratingCount": 17,
+      "virtualCareOffered": false,
+      "plansAccepted": ["CP-ADVANCE-01"]
+    },
+    {
+      "providerId": "prov-018",
+      "fullName": "Holly B. Atkinson, NP",
+      "specialty": "Internal Medicine",
+      "address": {
+        "line1": "398 Birch Ln",
+        "city": "Cheney",
+        "state": "KS",
+        "zip": "67025"
+      },
+      "phone": "(620) 831-2000",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 4.3,
+      "ratingCount": 55,
+      "virtualCareOffered": true,
+      "plansAccepted": ["CP-STANDARD-03", "CP-HDHP-02"]
+    },
+    {
+      "providerId": "prov-019",
+      "fullName": "Trevor L. Hoff, DO",
+      "specialty": "General Practice",
+      "address": {
+        "line1": "220 Cedar Brook Rd",
+        "city": "Kingman",
+        "state": "KS",
+        "zip": "67068"
+      },
+      "phone": "(620) 744-1099",
+      "acceptingPatients": false,
+      "inNetwork": true,
+      "rating": 2.8,
+      "ratingCount": 8,
+      "virtualCareOffered": false,
+      "plansAccepted": ["CP-STANDARD-03"]
+    },
+    {
+      "providerId": "prov-020",
+      "fullName": "Melissa J. Reed, PA",
+      "specialty": "Family Practice",
+      "address": {
+        "line1": "611 Hilltop Dr",
+        "city": "Hutchinson",
+        "state": "KS",
+        "zip": "67502"
+      },
+      "phone": "(620) 501-7722",
+      "acceptingPatients": true,
+      "inNetwork": true,
+      "rating": 4.4,
+      "ratingCount": 31,
+      "virtualCareOffered": true,
+      "plansAccepted": ["CP-HIGH-05", "CP-ADVANCE-01"]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "testQuestions": [
+    {
+      "id": 1,
+      "question": "Which ClearPath plan has the highest deductible?",
+      "answer": "ClearPath HDHP has the highest deductible at 1800 for individuals and 3600 for families.",
+      "plans": ["CP-HDHP-02"],
+      "providers": ["prov-004", "prov-011", "prov-008", "prov-018"]
+    },
+    {
+      "id": 2,
+      "question": "Which plans have the lowest primary care copay?",
+      "answer": "ClearPath Advance has the lowest primary care copay at 10 dollars.",
+      "plans": ["CP-ADVANCE-01"],
+      "providers": []
+    },
+    {
+      "id": 3,
+      "question": "Which plans are best for families looking for the lowest out-of-pocket maximum?",
+      "answer": "ClearPath HDHP offers the lowest family out-of-pocket maximum at 12000, making it the best choice for families prioritizing total cost protection.",
+      "plans": ["CP-HDHP-02"],
+      "providers": []
+    },
+    {
+      "id": 4,
+      "question": "Which plan provides the best coverage for maternity delivery costs?",
+      "answer": "ClearPath Advance Plus offers the best maternity delivery coverage with 20 percent after deductible, which is more favorable than the per-day charges found in High.",
+      "plans": ["CP-ADVANCE-PLUS-04"],
+      "providers": []
+    },
+    {
+      "id": 5,
+      "question": "Which plans have zero-cost telehealth?",
+      "answer": "ClearPath Advance, Standard, Advance Plus, and High all offer zero-dollar telehealth visits.",
+      "plans": ["CP-ADVANCE-01", "CP-STANDARD-03", "CP-ADVANCE-PLUS-04", "CP-HIGH-05"],
+      "providers": []
+    },
+    {
+      "id": 6,
+      "question": "Which plan is best for someone who wants an HSA?",
+      "answer": "ClearPath HDHP is the only plan eligible for an HSA, offering 1000 for individuals and 2000 for families in contributions.",
+      "plans": ["CP-HDHP-02"],
+      "providers": []
+    },
+    {
+      "id": 7,
+      "question": "Which plan offers the lowest specialist copay?",
+      "answer": "ClearPath Advance offers the lowest specialist visit copay at 30 dollars. HDHP may cost less in rare cases but only after meeting deductible.",
+      "plans": ["CP-ADVANCE-01"],
+      "providers": []
+    },
+    {
+      "id": 8,
+      "question": "Which plans include preventive dental benefits?",
+      "answer": "ClearPath Standard and ClearPath High offer preventive dental coverage.",
+      "plans": ["CP-STANDARD-03", "CP-HIGH-05"],
+      "providers": []
+    },
+    {
+      "id": 9,
+      "question": "Which plans have the lowest individual deductible?",
+      "answer": "ClearPath Advance Plus has the lowest individual deductible at 200.",
+      "plans": ["CP-ADVANCE-PLUS-04"],
+      "providers": []
+    },
+    {
+      "id": 10,
+      "question": "Which plan is best for someone who sees an internal medicine provider frequently?",
+      "answer": "ClearPath Standard and ClearPath High are strong options because they include several internal medicine providers in-network and offer predictable copays.",
+      "plans": ["CP-STANDARD-03", "CP-HIGH-05"],
+      "providers": ["prov-003", "prov-008", "prov-012", "prov-018"]
+    },
+    {
+      "id": 11,
+      "question": "Give me all providers in Hutchinson, Kansas.",
+      "answer": "Here are the in-network providers located in Hutchinson, Kansas.",
+      "plans": [],
+      "providers": ["prov-003", "prov-009", "prov-012", "prov-020"]
+    }
+  ]
+}

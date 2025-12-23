@@ -1,0 +1,71 @@
+{
+  "year": 2026,
+  "premiums": {
+    "selfOnly": {
+      "CP-ADVANCE-01": {
+        "biweeklyEmployed": 77.92,
+        "monthlyRetired": 168.83
+      },
+      "CP-HDHP-02": {
+        "biweeklyEmployed": 81.62,
+        "monthlyRetired": 176.84
+      },
+      "CP-STANDARD-03": {
+        "biweeklyEmployed": 86.75,
+        "monthlyRetired": 187.95
+      },
+      "CP-ADVANCE-PLUS-04": {
+        "biweeklyEmployed": 205.13,
+        "monthlyRetired": 444.45
+      },
+      "CP-HIGH-05": {
+        "biweeklyEmployed": 195.29,
+        "monthlyRetired": 423.13
+      }
+    },
+    "selfPlusOne": {
+      "CP-ADVANCE-01": {
+        "biweeklyEmployed": 187.99,
+        "monthlyRetired": 407.31
+      },
+      "CP-HDHP-02": {
+        "biweeklyEmployed": 175.47,
+        "monthlyRetired": 380.18
+      },
+      "CP-STANDARD-03": {
+        "biweeklyEmployed": 186.51,
+        "monthlyRetired": 404.11
+      },
+      "CP-ADVANCE-PLUS-04": {
+        "biweeklyEmployed": 449.58,
+        "monthlyRetired": 974.09
+      },
+      "CP-HIGH-05": {
+        "biweeklyEmployed": 432.95,
+        "monthlyRetired": 938.06
+      }
+    },
+    "selfAndFamily": {
+      "CP-ADVANCE-01": {
+        "biweeklyEmployed": 228.85,
+        "monthlyRetired": 495.85
+      },
+      "CP-HDHP-02": {
+        "biweeklyEmployed": 215.63,
+        "monthlyRetired": 467.19
+      },
+      "CP-STANDARD-03": {
+        "biweeklyEmployed": 231.45,
+        "monthlyRetired": 501.47
+      },
+      "CP-ADVANCE-PLUS-04": {
+        "biweeklyEmployed": 496.12,
+        "monthlyRetired": 1074.93
+      },
+      "CP-HIGH-05": {
+        "biweeklyEmployed": 525.18,
+        "monthlyRetired": 1137.89
+      }
+    }
+  }
+}

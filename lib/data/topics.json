@@ -1,0 +1,44 @@
+{
+  "topics": [
+    {
+      "topicId": "who-needs-coverage",
+      "label": "Who Needs Coverage?",
+      "prompt": "I would like to enter information about who I need to secure coverage for."
+    },
+    {
+      "topicId": "type-of-coverage",
+      "label": "Type of Coverage",
+      "prompt": "I would like to enter information about the type of healthcare coverage I am looking for."
+    },
+    {
+      "topicId": "risk-premium-tolerance",
+      "label": "Risk & Premium Tolerance",
+      "prompt": "I would like to discuss my risk tolerance and how much I am comfortable paying in premiums."
+    },
+    {
+      "topicId": "anticipated-care-needs",
+      "label": "Anticipated Care Needs",
+      "prompt": "I would like to enter information about my expected healthcare needs for the upcoming year."
+    },
+    {
+      "topicId": "provider-network",
+      "label": "Provider Network",
+      "prompt": "I would like to enter information about my preferred providers or the types of providers I want access to."
+    },
+    {
+      "topicId": "lifestyle-wellness",
+      "label": "Lifestyle & Wellness",
+      "prompt": "I would like to enter information about my lifestyle and wellness preferences that could affect my plan selection."
+    },
+    {
+      "topicId": "budgeting",
+      "label": "Budgeting",
+      "prompt": "I would like to discuss my healthcare budget so that I can find a plan that fits what I want to spend."
+    },
+    {
+      "topicId": "recommendation",
+      "label": "Recommendation",
+      "prompt": "I would like help getting a plan recommendation based on everything I've shared."
+    }
+  ]
+}

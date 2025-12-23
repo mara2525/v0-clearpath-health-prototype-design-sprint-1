@@ -1,0 +1,173 @@
+{
+  "plans": [
+    {
+      "planId": "CP-ADVANCE-01",
+      "planName": "ClearPath Advance",
+      "preventiveCare": "$0",
+      "deductible": {
+        "single": 750,
+        "family": 1500
+      },
+      "outOfPocketMax": {
+        "single": 10600,
+        "family": 21200
+      },
+      "pcpOfficeVisit": 10,
+      "mentalHealthOfficeVisit": 10,
+      "specialistOfficeVisit": 30,
+      "urgentCare": 50,
+      "telehealth": 0,
+      "emergencyRoom": "35% after deductible",
+      "hospitalCareOutpatient": "25% after deductible",
+      "hospitalCareInpatient": "25% after deductible",
+      "labServices": "25% after deductible",
+      "xrayImaging": "25% after deductible",
+      "chiropractic": 10,
+      "acupuncture": 10,
+      "rxBenefits": {
+        "generic": 10,
+        "preferredBrand": "50% up to 500 max",
+        "nonPreferredBrand": "100%",
+        "specialty": "50% up to 500 max"
+      }
+    },
+    {
+      "planId": "CP-HDHP-02",
+      "planName": "ClearPath HDHP",
+      "preventiveCare": "$0",
+      "hsaContribution": {
+        "single": 1000,
+        "family": 2000
+      },
+      "deductible": {
+        "single": 1800,
+        "family": 3600
+      },
+      "outOfPocketMax": {
+        "single": 6000,
+        "family": 12000
+      },
+      "pcpOfficeVisit": "5% after deductible",
+      "mentalHealthOfficeVisit": "5% after deductible",
+      "specialistOfficeVisit": "5% after deductible",
+      "urgentCare": "5% after deductible",
+      "telehealth": "0 after deductible",
+      "emergencyRoom": "5% after deductible",
+      "hospitalCareOutpatient": "5% after deductible",
+      "hospitalCareInpatient": "5% after deductible",
+      "labServices": "5% after deductible",
+      "xrayImaging": "5% after deductible",
+      "chiropractic": "5% after deductible",
+      "acupuncture": "5% after deductible",
+      "preventiveDental": 0,
+      "rxBenefits": {
+        "generic": "25%",
+        "preferredBrand": "25%",
+        "nonPreferredBrand": "40%",
+        "specialty": "25%"
+      }
+    },
+    {
+      "planId": "CP-STANDARD-03",
+      "planName": "ClearPath Standard",
+      "preventiveCare": "$0",
+      "deductible": {
+        "single": 500,
+        "family": 1000
+      },
+      "outOfPocketMax": {
+        "single": 8000,
+        "family": 16000
+      },
+      "pcpOfficeVisit": 35,
+      "mentalHealthOfficeVisit": 35,
+      "specialistOfficeVisit": 50,
+      "urgentCare": 50,
+      "telehealth": 0,
+      "emergencyRoom": "35% after deductible",
+      "hospitalCareOutpatient": "25% after deductible",
+      "hospitalCareInpatient": "25% after deductible",
+      "labServicesQuest": 0,
+      "labServicesOther": "25% after deductible",
+      "xrayImaging": "25% after deductible",
+      "maternityDelivery": "25% after deductible",
+      "maternityProfessional": 0,
+      "chiropractic": 35,
+      "acupuncture": "25% after deductible",
+      "preventiveDental": "50%",
+      "rxBenefits": {
+        "generic": "10 retail, 25 mail",
+        "preferredBrand": "40% up to 350 or 700 max",
+        "nonPreferredBrand": "60% up to 550 or 1100 max",
+        "specialty": "50% up to 450 or 600 max"
+      }
+    },
+    {
+      "planId": "CP-ADVANCE-PLUS-04",
+      "planName": "ClearPath Advance Plus",
+      "preventiveCare": "$0",
+      "deductible": {
+        "single": 200,
+        "family": 400
+      },
+      "outOfPocketMax": {
+        "single": 7000,
+        "family": 14000
+      },
+      "pcpOfficeVisit": 30,
+      "mentalHealthOfficeVisit": 30,
+      "specialistOfficeVisit": 50,
+      "urgentCare": 50,
+      "telehealth": 0,
+      "emergencyRoom": "25% after deductible",
+      "hospitalCareOutpatient": "20% after deductible",
+      "hospitalCareInpatient": "20% after deductible",
+      "labServices": 0,
+      "xrayImaging": 50,
+      "maternityDelivery": "20% after deductible",
+      "maternityProfessional": 0,
+      "chiropractic": 30,
+      "acupuncture": 30,
+      "rxBenefits": {
+        "generic": "15 retail, 20 mail",
+        "preferredBrand": "100 retail or 200 mail",
+        "nonPreferredBrand": "50%",
+        "specialty": "40% up to 700 max"
+      }
+    },
+    {
+      "planId": "CP-HIGH-05",
+      "planName": "ClearPath High",
+      "preventiveCare": "$0",
+      "deductible": {
+        "single": 500,
+        "family": 1000
+      },
+      "outOfPocketMax": {
+        "single": 7500,
+        "family": 15000
+      },
+      "pcpOfficeVisit": 30,
+      "mentalHealthOfficeVisit": 30,
+      "specialistOfficeVisit": 45,
+      "urgentCare": 45,
+      "telehealth": 0,
+      "emergencyRoom": "30% after deductible",
+      "hospitalCareOutpatient": "20% after deductible",
+      "hospitalCareInpatient": "200 per day up to 5 days plus 20%",
+      "labServices": 10,
+      "xrayImaging": "20% after deductible",
+      "maternityDelivery": "200 per day up to 5 days plus 20%",
+      "maternityProfessional": 0,
+      "chiropractic": 30,
+      "acupuncture": "20% after deductible",
+      "preventiveDental": "Balance after plan pays 22",
+      "rxBenefits": {
+        "generic": "10 retail, 25 mail",
+        "preferredBrand": "25% up to 250 or 500 max",
+        "nonPreferredBrand": "40% up to 400 or 800 max",
+        "specialty": "25% up to 350 max"
+      }
+    }
+  ]
+}
