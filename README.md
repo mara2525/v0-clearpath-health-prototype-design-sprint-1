@@ -28,14 +28,31 @@ The chat panel (`ChatBox`) appears in the persistent left sidebar. Before any me
 The chat supports two modes:
 
 ### Webhook Mode (`NEXT_PUBLIC_USE_WEBHOOK=true`)
-Sends a POST request to the n8n webhook at `NEXT_PUBLIC_N8N_WEBHOOK_URL` with:
+Sends a POST request to the n8n webhook at `NEXT_PUBLIC_N8N_WEBHOOK_URL` with an `X-App-Auth` header. Falls back to demo mode if the webhook fails.
+
+**Example request:**
 ```json
 {
-  "clearpath_session_id": "<uuid>",
-  "message": "<user message>"
+  "clearpath_session_id": "7772c3d4-e5f6-4789-a012-b3c4d5e6f789",
+  "message": "Give me the deductible on the Advance Plan"
 }
 ```
-Includes an `X-App-Auth` header. Expects a JSON response with `answer`, `providers`, and `plans` fields. Falls back to demo mode if the webhook fails.
+
+**Example response:**
+```json
+{
+  "question": "Give me the deductible on the Advance Plan",
+  "answer": "The ClearPath Advance Plan has a $750 single and $1500 family deductible.",
+  "plans": ["CP-ADVANCE-01"],
+  "providers": [],
+  "plan_matches": [
+    {
+      "planId": "CP-ADVANCE-01",
+      "match_score": 100
+    }
+  ]
+}
+```
 
 ### Demo Mode (`NEXT_PUBLIC_USE_WEBHOOK=false`)
 Matches user questions against pre-configured Q&A pairs in `lib/data/qa.json` using a word-overlap similarity algorithm. Suggests sample questions when no match is found. Shows a "Demo Mode" indicator in the chat.
